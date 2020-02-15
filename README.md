@@ -2,6 +2,7 @@
 
 CatVoiceActivator is a recurrent/LSTM model that can recongnize cats' meowing sound. This project has three parts. A training set generator
 synthisizes training samples, a keras training model that trains the recurrent/LSTM model, and a code for testing the trained model.
+Disclaimer: This work is inspired by Andrew Ng's voice activation triggering GRU project.
 
 ## Training set generator
 
