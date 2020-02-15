@@ -14,3 +14,4 @@ A recurrent/LSTM model is built and trained using keras.
 ## Test
 
 The trained model is evaluated here using some test set. The result is shown below:
+![alt text](2020-02-15.png)
