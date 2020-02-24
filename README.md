@@ -7,7 +7,10 @@ Disclaimer: This work is inspired by Andrew Ng's voice triggering GRU project.
 
 ## Training set generator
 
-This code uses my own cat's recorded meowing sound, some negative sounds and some other background sounds to generate a training set. 
+This code uses my own cat's recorded meowing sound, some negative sounds and some other background sounds to generate a training set.
+Each background sound is 10 seconds and meow and negative sounds are 1 second. The `generate_sample` function creates training samples by
+randomly selecting a random number of meow and negative sounds and inserting them at random times to a randomly selected background sound. PyDub library is used for this. The sound track is then transformed to fft using spectogram of PyPlot (I tried the spectogram of SciPy, but
+the result was not as good as matplotlib!). 
 
 ## Training 
 
