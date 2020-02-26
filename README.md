@@ -16,7 +16,7 @@ Training samples require considerable hard drive storage. So, instead of having 
 
 ## Training 
 
-A recurrent/LSTM model is built and trained using keras.
+A recurrent/LSTM model is built and trained using keras. 1500 samples are used for training the model. The model is made of one convolutional layer, followed by four LSTM/BatchNormalization/Dropout layers. 
 
 ## Test
 
